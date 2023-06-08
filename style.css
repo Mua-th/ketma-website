@@ -1,0 +1,136 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold ;
+    font-style: italic;
+    font-size: 10px;
+
+   
+}
+
+nav{
+    height: 60px;
+}
+.nav-link{
+
+    color: #ebe7d9;
+
+}
+.nav-link:hover{
+
+    color: #f55139;
+
+}
+.navbar-brand {
+    position: relative;
+    background: url(ket.png);
+    width: 100px;
+    left: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+  
+
+.navbar{
+    background-color: #1e1f22   ;
+}
+.landing{
+    background-color: #1e1f22   ;
+    
+    min-height: calc(100vh - 15px);
+}
+
+.bglogo,h1{
+    font-size: 72px;
+    color: #ebe7d9;
+}
+
+.bg {
+    font-size: 72px;
+    background-color: #ebe7d9;
+}
+
+.logosp{
+    padding : 10px;
+    
+}
+
+#anim0{
+    animation: slide 1s cubic-bezier(.09,.54,0,1.02) 1;
+}
+@keyframes slide {
+    0%{transform : translate(-250px,250px);} 
+    100%{transform : translate(0px,0pxpx);} 
+    
+}
+#anim1{
+    animation: slide1 1s cubic-bezier(.09,.54,0,1.02) 1;
+}
+@keyframes slide1 {
+    0%{transform : translate(250px,-250px);} 
+    100%{transform : translate(0px,0px);} 
+    
+}
+
+.imgb{
+    height: 37.4%;
+    width: 37.4%;
+}
+.c {
+    height: 25.4%;
+    width: 25.4%; 
+}
+
+.d{
+    height: 27%;
+    width: 27%; 
+}
+.orgbg{
+    background-color: #f55139;
+    height: 2vh;
+}
+
+footer{
+    background-color: #ebe7d9;
+
+}
+
+.ic{
+    height: 5.1%;
+    width: 5.1%; 
+}
+.org{
+    
+    color: #ebe7d9;
+    font-size: 12px;
+
+}
+.org:hover{
+ 
+    color:#f55139;
+
+}
+.orgbut{
+    background-color: #f55139 ;
+    color: #ebe7d9;
+    font-size: 12px;
+
+}
+.orgbut:hover{
+    background-color: #ebe7d9;
+    color:#f55139;
+
+}
+
+.textbej{
+    color: #ebe7d9;
+}
+.textorg{
+    color: #f55139;
+}
+input[type='checkbox']:checked {
+    background-color: #f55139;
+  }
+ 
+  .orglink:hover{
+    color: #ebe7d9;
+  }
