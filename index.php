@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  $current = $_SESSION['current'];
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,8 +38,9 @@
               </li>
           
             </ul>
-            <div >  <a class="org me-3 nav-link" href="">signup</a> </div>
-            <div >  <a class="org me-3 nav-link" href="login.html">login</a> </div>
+            <div >  <a class="org me-3 nav-link" href="register.php">signup</a> </div>
+            <div >  <a class="org me-3 nav-link" href="profil.php"><?php echo $current->prenom ;?></a> </div>
+            <div >  <a class="org me-3 nav-link" href="login.php">login</a> </div>
             
           </div>
         </div>
