@@ -22,7 +22,7 @@ nav{
 }
 .navbar-brand {
     position: relative;
-    background: url(ket.png);
+    background: url(img/ket.png);
     width: 100px;
     left: 15px;
     background-size: contain;

@@ -17,7 +17,7 @@ var newElement = document.createElement('img');
 parentElement.prepend(newElement);
 
 // Add content to the new element if needed
-newElement.src="kesl.png";
+newElement.src="img/kesl.png";
 newElement.alt="";
 newElement.id="anim"+i;
 newElement.style="margin : -10px";
@@ -25,3 +25,4 @@ newElement.style="margin : -10px";
 
 console.log("done");
 })
+
